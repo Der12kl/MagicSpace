@@ -1,4 +1,4 @@
-
+@import './fonts/_fonts.scss';
 html
 {
     display: block;
@@ -75,7 +75,7 @@ h4.log{
     position: absolute;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
     font-size: 1.2em;
     margin-top: 8.7em;
     margin-left: 1.7em;
@@ -125,7 +125,7 @@ p.moonmain{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Pacifico, Impact;
    display: block;
    max-width: 30%;
    margin-right: 2%;
@@ -223,7 +223,7 @@ h1.moonmain2{
     box-sizing: border-box;
     font-size: 2.9em;
     color: cadetblue;
-    font-family: Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Pacifico, Impact;
    display: block;
    max-width: 30%;
    left: 15%;
@@ -238,7 +238,7 @@ p.moonmain3{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Pacifico, Impact;
    display: block;
    margin-top: 1em;
    margin-bottom: 6em;
@@ -258,7 +258,7 @@ p.moonmain4{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Pacifico, Impact;
    display: block;
    margin-left: auto;
    margin-bottom: auto;
@@ -274,7 +274,7 @@ p.moonmain5{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Pacifico, Impact;
    display: block;  
    position: absolute;
    text-decoration: underline;

@@ -1,0 +1,42 @@
+@font-face {
+    font-family:'Pacifico';
+    src: url('Pacifico Regular.eot');
+	src: url('Pacifico Regular.eot?#iefix') format('embedded-opentype'),
+		url('Pacifico Regular.woff2') format('woff2'),
+		url('Pacifico Regular.woff') format('woff'),
+		url('Pacifico Regular.ttf') format('truetype'),
+		url('Pacifico Regular.otf') format('opentype'),
+		url('Pacifico Regular.svg#Pacifico Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+    font-display: swap;
+
+    font-family:'Segoe UI';
+    src: url('Segoe UI Bold.eot');
+	src: url('Segoe UI Bold.eot?#iefix') format('embedded-opentype'),
+		url('Segoe UI Bold.woff2') format('woff2'),
+		url('Segoe UI Bold.woff') format('woff'),
+		url('Segoe UI Bold.ttf') format('truetype'),
+		url('Segoe UI Bold.otf') format('opentype'),
+		url('Segoe UI Bold.svg#Segoe UI Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+    font-display: swap;
+    font-family:'Impact';
+    src: url('Impact.eot');
+	src: url('Impact.eot?#iefix') format('embedded-opentype'),
+		url('Impact.woff2') format('woff2'),
+		url('Impact.woff') format('woff'),
+		url('Impact.ttf') format('truetype'),
+		url('Impact.otf') format('opentype'),
+		url('Impact.svg#Impact') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+    font-display: swap;
+}
