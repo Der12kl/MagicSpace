@@ -808,9 +808,9 @@ and (max-width : 424px)  {
                         font-size: 1.0em;
                        justify-content: center;
                        margin-bottom: auto;
-                       margin-top: auto;
-                       margin-right: 13em;
-                       margin-left: 13em;
+                       margin-top: 17em;
+                       margin-right: auto;
+                       margin-left: auto;
                          }
                          .logo{
                            justify-content: start;
