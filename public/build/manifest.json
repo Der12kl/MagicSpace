@@ -1,0 +1,83 @@
+{
+  "fonts/Pacifico Regular.eot": {
+    "file": "assets/Pacifico Regular-891f13fa.eot",
+    "src": "fonts/Pacifico Regular.eot"
+  },
+  "fonts/Segoe UI Bold.eot": {
+    "file": "assets/Segoe UI Bold-fc2b102b.eot",
+    "src": "fonts/Segoe UI Bold.eot"
+  },
+  "fonts/Pacifico Regular.woff2": {
+    "file": "assets/Pacifico Regular-3f9469ab.woff2",
+    "src": "fonts/Pacifico Regular.woff2"
+  },
+  "fonts/Segoe UI Bold.woff2": {
+    "file": "assets/Segoe UI Bold-c5f7cce8.woff2",
+    "src": "fonts/Segoe UI Bold.woff2"
+  },
+  "fonts/Segoe UI Bold.woff": {
+    "file": "assets/Segoe UI Bold-0b813741.woff",
+    "src": "fonts/Segoe UI Bold.woff"
+  },
+  "fonts/Impact.eot": {
+    "file": "assets/Impact-4b043f27.eot",
+    "src": "fonts/Impact.eot"
+  },
+  "fonts/Impact.woff2": {
+    "file": "assets/Impact-71b11224.woff2",
+    "src": "fonts/Impact.woff2"
+  },
+  "fonts/Impact.woff": {
+    "file": "assets/Impact-e3fa1c41.woff",
+    "src": "fonts/Impact.woff"
+  },
+  "fonts/Segoe UI Bold.ttf": {
+    "file": "assets/Segoe UI Bold-442bcb63.ttf",
+    "src": "fonts/Segoe UI Bold.ttf"
+  },
+  "fonts/Segoe UI Bold.otf": {
+    "file": "assets/Segoe UI Bold-676ee002.otf",
+    "src": "fonts/Segoe UI Bold.otf"
+  },
+  "fonts/Pacifico Regular.woff": {
+    "file": "assets/Pacifico Regular-66667d6f.woff",
+    "src": "fonts/Pacifico Regular.woff"
+  },
+  "fonts/Segoe UI Bold.svg": {
+    "file": "assets/Segoe UI Bold-a8a58c7b.svg",
+    "src": "fonts/Segoe UI Bold.svg"
+  },
+  "fonts/Pacifico Regular.ttf": {
+    "file": "assets/Pacifico Regular-559cd1ae.ttf",
+    "src": "fonts/Pacifico Regular.ttf"
+  },
+  "fonts/Impact.ttf": {
+    "file": "assets/Impact-3b893e49.ttf",
+    "src": "fonts/Impact.ttf"
+  },
+  "fonts/Pacifico Regular.otf": {
+    "file": "assets/Pacifico Regular-68437e63.otf",
+    "src": "fonts/Pacifico Regular.otf"
+  },
+  "fonts/Impact.otf": {
+    "file": "assets/Impact-b19ed384.otf",
+    "src": "fonts/Impact.otf"
+  },
+  "fonts/Impact.svg": {
+    "file": "assets/Impact-7600bbe5.svg",
+    "src": "fonts/Impact.svg"
+  },
+  "fonts/Pacifico Regular.svg": {
+    "file": "assets/Pacifico Regular-9fdbf569.svg",
+    "src": "fonts/Pacifico Regular.svg"
+  },
+  "styles.css": {
+    "file": "assets/styles-a5998869.css",
+    "src": "styles.css",
+    "isEntry": true
+  },
+  "webfonts.css": {
+    "file": "assets/webfonts-e3b0c442.css",
+    "src": "webfonts.css"
+  }
+}

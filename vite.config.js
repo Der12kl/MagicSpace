@@ -1,7 +1,7 @@
-import {defineConfig} from 'vite';
-import viteCompression from 'vite-plugin-compression';
+import { defineConfig } from "vite";
+import { VitePluginFonts } from "vite-plugin-fonts";
 
 
 export default defineConfig({
-	plugins: [viteCompression]
-})
+	plugins: [VitePluginFonts()],
+});

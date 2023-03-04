@@ -125,7 +125,7 @@ p.moonmain{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact;
+    font-family: Impact, Segoe UI;
    display: block;
    max-width: 30%;
    margin-right: 2%;
@@ -223,7 +223,7 @@ h1.moonmain2{
     box-sizing: border-box;
     font-size: 2.9em;
     color: cadetblue;
-    font-family: Pacifico, Impact;
+    font-family: Impact, Segoe UI;
    display: block;
    max-width: 30%;
    left: 15%;
@@ -238,7 +238,7 @@ p.moonmain3{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact;
+    font-family: Impact, Segoe UI;
    display: block;
    margin-top: 1em;
    margin-bottom: 6em;
@@ -258,7 +258,7 @@ p.moonmain4{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact;
+    font-family: Impact, Segoe UI;
    display: block;
    margin-left: auto;
    margin-bottom: auto;
@@ -274,7 +274,7 @@ p.moonmain5{
     box-sizing: border-box;
     font-size: 1.3em;
     color: cadetblue;
-    font-family: Pacifico, Impact;
+    font-family: Impact, Segoe UI;
    display: block;  
    position: absolute;
    text-decoration: underline;
