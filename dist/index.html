@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Magic Space</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-49823a07.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-3ec06d95.png">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH5wMCFzYibylWpQAACGVJREFUWMONl3lwlOUZwH/vd+wuuZbcIReEkCAlgRguYQLGROpFWxl7jC2jMPTCAxFRa0drVaozFmQKtSrxoFSd6dQydQyBVkMhkEiSEjReGySBJJJlk2yW3Ht939s/NllZk4DPzPfHvvPu83uu93mfV3AVeWKzE0AD8oByoBQoBGYA0WPbhgGnEMonmmo96mitOv72uz9NAW4HVgOzAXUy/eJbgBcB64GbgKyxtQmiCBWvr58vz1cHPmx6qcfZ/fE0YLqOEKmKSo6qk6XopCgqGoK3fQN0mcGJyh6//yJCSIB04IExeMpUhgohkFJy/kIddadepK3jmG4a/vRsReV6PZpSPYoCzUqq0LAJgYbAIw0O+4fp4hsGPL7ZiSJNJGIpsAMouVKUhFDw+Qf5X/M+Tja9zPBoL/n5+dz1459wy6kvSP+wCV1RMAE59plIhqTJECaA1CLggBSiDHgJyL9SbQihMDjk5IPaZ/is5V2iom3ce++9bNmyhdw5czDPnmPgwcfxHz8JqhKR8z5pMGCaAEPq12EHYBnw2tXhKp7+dqr++yhfnD3IrJyZ7Ny5k61bt5KcnIwAlIR4LMuKCTrOYLR3Mg5QEdQHR/mnfwgTzighhRIgA3j+28HPcfDIw3x5/gMWLFjA/v37WbduHRaLJWKvmptD3K4/YFm5HEIeYyL5KOgjiARoVJ7Y7ESGjshmYNW3gz9CW8cxiouLeeONNygpKZnyP2ruLOJ2bceycjnCNOmXJvXBUQAfcEwZy8sS4O7x3CqKOsmnTYBXVFRQXFwMQH9/Py0tLTgcDjweD1LKCUbYVq2gOeDlc8MPcBao0ZCoCO4CUoVQ6e07Q0vbIQwjcLnvgKSt4xgdXfUT4C6Xi6amJsyxMLe2trJw4UIyMzMjjLA9/ySVd3zC0GddpCbPb73z+286NQRzgZuFUOlxO6isfohOZ+OUIS0sLGTv3r1heDAYxOFwoOs68fHx4Wg4HA5SUlIi6uLjwUtUuV1MsyXy3ZVPF6Qmzc/VgDIh1KwI+NxiuLY0sgNIKJ6u85cNd7Bo0aLwciAQYGRkBLvdHl6LiorC7Xbj8/nCBni9Xv68Zw+uixcpmn8n2elLs0e9fWWaouil3b2fa2F4wXLYugdyvgPjeZSSxXaVimusFEVH9iVd17HZbHi9XqxWK0IIvF4vFoslwvsDBw7wzjv/IC42g6ULN6KqFk1Ks1Rp/6q2sPLIthC8cAw+ax4YQTANMAwWxwoq5lomwAE0TSM/P5/R0VG6u7txuVwMDg6Sl5eH1WoF4PTp0zz11FOMjPhYVvRzUpMKkNIEKBAzM5YPtl/4MIYYO/zub7B0NQQD4bAvtqtUzLNRFKMwlUgp6evrw+l0IqUkLS2NpKQkhBC0tbWxYcMGampqmJ9/O2vKd2DVY5ChPjColSzdEjVa46Hb7YB/vQLZ+ZCSFfLcrlJxzeTwvoCkccBgVbzGNEWQmJhIYmJixJ6Ojg7uu+8+ampqyEpfRtmKx7BaYse9B4jW5mTfgKUsisrqh+ipOxhy+/4XWDJnJnvn6hTFToRfCkoea/UxasLK6SqT3Vft7e3cc889HDp0iLTkQm4tfZZ4ew5SGhH7FFMaw1npy7itfAdJ8XlQV0XSa7/luaQBimLVSeGPnvXR45c8m2slSp0aXlVVRVpyIWvKd5KaXDgBDgwrQJeUBtnpy8jJCrXUmHPN1L/zFm6PZ0r47rk2Mq1TwTeNwQv4XvlO0lOLJoMDdCnAp0IIRkb7uOD6CCEgKS2d2vpGXn51H+4+TwS8+0pwzyCbHnyIqqpDpCUXsKb8BWZMDQf4VAOOCqH+wNX7mdbjbiEmzo49PlRMtfUNIODu9et5ri+abr9kzxTw8z7YdKqbw/Wnseox3FjyJBlp12KawangQeCopgj1iGH4OlpaD80OBEeYkZSPxWYDQuNW3ckGev2ShNvW8Zt5KWRaJmo67zXZ1OLnsDsISCz6NOyxGZdX+2TSCRxRfnhr8pmahl11zS0HiNPhRxl+EoQPc/wyE4KWpkai3n+LmGHP5HCHj8Nug/BpkCC5IhzgMJIWrfAmkQxitiokD19r4dF8Nw1pnVR0zsYzpKCIUCSOn2zAlPDrjetJTIiPhPcGQVGuBrxcXMB+BIYCrAW5eHGyyi+v0bBmxlK6WuNXN1wiPtoMR0IIQW19Ay+/vg+P5xLtPvk1fLwkBOHR6yryVwmNEJrx1wKWtTkaaTEqIi8BMU1n1bwRkJJX3rdzya+HI1FzohZXr5svbtzIB0rK13BFwPAA+EaRofFhKqkBdgswntk9I/TwiNMF1yUrME1DSYkKOTMSoGTUScCm8+JwHq4BL+7ui/S6nFQffBfj+Eew+QVIyQip7bkArz8NvU5iUxZgtcRMZsUZ4BHggpQhyzVgeoJNkB4tkAiM9n4Y6gXnIEH3KBfPBWls/oqL/V6MYABV0VFVK0bdwZDKB3aF8r9nG5x4j8T4XFav/D0x0WkRY9kYfJOAehPYvictbICI08FuESgjfsyTF/AHJW2DkjfPBnnVEcDjD5Bgn0V25nXMmVmGplqprt1Od93B0M2pKHDyMInxudxWtoNZmSsuP4ISOAFsE1I2mEKwffeMsFUawHAQKjsMJNA1bNLcZ9LQbdA5JNEtMUbJkl+oxQXriI2ZgaroANisdiqrt9HT8B+AqeDdwD7gT0CXicL23WkROREQqhlFgCnDWTOBXuDEzIzl7/1s7d+XaKr1FinN8ONUCJXOrnoqq7dhSoM15X9kZsYKpDSDhJrMv8fgp4DgM5d5/U0DTlz2OwA4gWbgGPDxkoUbR26+fvukz3MhlOjOrgYM0z88K3OlU0rjE+AoUA18eSXwuPwfzWC0M6GrnkYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDMtMDJUMjM6NTQ6MzQrMDA6MDBPyu/TAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTAzLTAyVDIzOjU0OjM0KzAwOjAwPpdXbwAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==">
+<link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACYVBMVEUAAAB9bud9bud9bud9bud9bud9bud/b+p2aNs4MWsCAAAYAgR9bud9bud9bud9bucVAgN9bucDAAF+b+h9bucGCRZ/b+pjV7lJP4Z/b+olHkJ9buhuYcuAce19bud3ad0XFzU2GA19bucGAgAeCwFdJAMiFyd+b+kEAQAOBgEGAgAAAABLQoqAce2AcextYMo5MGdrXsV/cOs4BAlFBQsPAQJ9bud+b+llWbwrJ088NjyGISm/DRzbESLIEB8kAwZYTaUjITOBgYDq6ur7t73tKzvrECK8Dx1/cOt/cOpWTKEkIzClpaT9/f3////4t73uLDyRCRVmWbtZTKFbTaRJPoclIzGpqaj29vbS0tLR0dH09PTytLlQFh1WSp0OHC8DNUYBNkgXPEinqajc3NzCwsLDw8PZ2dm5urknIzoOIDMAgKQAt+wYveyr5PT+/v7m5ubBwcHl5eXn5+dDQ0VJQIkANEIAsOMYxPWr6fv+///j+P73/P3t7Ozu7u7t7e1fX14wKlp4at4mJEsKUGOi3u/F8PyX5Pr3/f9jY2MqJU5yZNRLQYsaHR6TmJv19fXG8f2P4vns+v7u9PZjZ2gqJU1xZNIrJk8qMDJMVluFlpyZ3fHs+//u/P9iwdsNIzVnWb2UWy5UWlhIVFqRmZz29vXu+/9j1/kBp9YOJTltXsecQQn+qC6zl0lVWFZKVFmGjpFfy+oDwPcAotAOIjVsXsbVXw//pSvziiFrPyIZHiEQEhkDTWMApdQATGEpJk52aNp9bugiDQKrRQmmRQlIQIhgVLIoJk4AHicnJUxwYs8jS05WAAAAM3RSTlMAAAdIp+T7++Otu/UYku6x8QbDSe2Cp6bj4/v7++Pjpnv+Scz6/Pfu5ePNhVim5Pv75Kfw68zLAAAAAWJLR0ROGWFx3wAAAAd0SU1FB+cDAhc2Im8pVqUAAAEbSURBVBjTARAB7/4AAAABAgMEBQYHCAkKCzM0NQABAQwNDjY2Nzg5Ojs8PT4/AAEMDzY2NjdAQUJDREVGRxAAEQ03SEhJSktMTU5OT1BREgATFFJTVFVWV1hZWltOXF0VABZeX2BhYmNOZGVmZ05oaRcAGGprbG1ub05wcXFyc3R1GQAadnd4eU56e3x9fn+AgYIbAByDhIVOToaHiE5+iYqLNwYAHYyNjo+QkZJOk5SVljc2HgAfl5iZmpucTp2en6BJNjYEACAhoaKjpKWmp6ipqjc2FCIAI6usra6vsLGys7S1NzYNEQAktre4ubq7vL2+v8DBDwwBAMLDxCUmxcbHyMnKJw0MAQEAKCkqKywtLi8wMTIDAgEAACzfWLdtGLfkAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTAyVDIzOjU0OjM0KzAwOjAwT8rv0wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0wMlQyMzo1NDozNCswMDowMD6XV28AAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII=">
+<link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K">
+<link rel="mask-icon" href="/assets/safari-pinned-tab-185ebcb2.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="/assets/index-d1a4cf73.css">
+</head>
+<body style="overflow-y: auto;">
+    <div class="general">
+<div class="containter">
+    <div class= "logo">
+   <img class="logoden" src="/assets/Spacelogo-ba40ac08.png"  width="254" height="254"
+   alt="Spacelogo">
+   <h3 class="centralog">MagicSpace</h3>
+   <h4 class="log">The best space travel</h4>
+</div>
+</div>
+<main class="generals" style="opacity: 1;">
+   <section class="moon">
+    <video class="moonweb" src="/assets/Moonvideo-1426f87e.webm"  width="3840" height="2160"  onloadedmetadata="this.muted = true" playsinline autoplay muted loop style="opacity: 1;">
+    </video>
+<div class="moontext1" style="opacity: 1;">
+<p class="moonmain">
+    We are the first commercial spaceship in the world, which will make the first spaceflight around the moon. <br> After the first spaceflight, we will make the spaceflight tickets cheaper.    
+</p>
+</div>
+<div class="register"  style="opacity: 1;">
+    <button class="btro">Register for a spaceflight</button>
+</div>
+<div class="main-bottom" style="opacity: 1;">
+<div class="wrapper">
+    <div class="moontext2" style="opacity: 1;">
+        <h1 class="moonmain2">
+            <small>  WELCOME TO  </small> <br> <strong>Magic Space</strong> 
+        </h1>
+        </div>
+</div>
+</div>
+   </section>
+   <section class="moon">
+    <video class="moonweb" src="/assets/rocketdesign-b4a1e6b9.webm"  width="1280" height="720"  onloadedmetadata="this.muted = true" playsinline autoplay muted loop style="opacity: 1;">
+    </video>
+<div class="moontext1" style="opacity: 1;">
+<p class="moonmain">
+    Our company manufactures the best space rockets for space travel. The material for rockets and engines conducts extreme successful tests. 
+</p>
+</div>
+<div class="register"  style="opacity: 1;">
+    <button class="btro">Register for a spaceflight</button>
+</div>
+<div class="main-bottom" style="opacity: 1;">
+<div class="wrapper">
+    <div class="moontext2" style="opacity: 1;">
+        <h1 class="moonmain2">
+           ROCKET DESIGN 
+        </h1>
+        </div>
+</div>
+</div>
+   </section>
+   <section class="moon">
+    <video class="moonweb" src="/assets/Savety-d0700252.webm"  width="3840" height="2160"  onloadedmetadata="this.muted = true" playsinline autoplay muted loop style="opacity: 1;">
+    </video>
+<div class="moontext1" style="opacity: 1;">
+<p class="moonmain">
+    After you see the moon, we will take you safely to earth.
+Space flight safety meets all technological standards.
+</p>
+</div>
+<div class="register"  style="opacity: 1;">
+    <button class="btro">Register for a spaceflight</button>
+</div>
+<div class="main-bottom" style="opacity: 1;">
+<div class="wrapper">
+    <div class="moontext2" style="opacity: 1;">
+        <h1 class="moonmain2">
+            SPACEFLIGHT SAFETY
+        </h1>
+        </div>
+</div>
+</div>
+   </section>
+   <section class="moon">
+    <video class="moonweb" src="/assets/vies-62ee5159.webm"  width="3840" height="2160"  onloadedmetadata="this.muted = true" playsinline autoplay muted loop style="opacity: 1;">
+    </video>
+<div class="moontext1" style="opacity: 1;">
+<p class="moonmain">
+    You'll see the best views of both sides of the moon and the cosmic stars.  
+</p>
+</div>
+<div class="register"  style="opacity: 1;">
+    <button class="btro">Register for a spaceflight</button>
+</div>
+<div class="main-bottom" style="opacity: 1;">
+<div class="wrapper">
+    <div class="moontext2" style="opacity: 1;">
+        <h1 class="moonmain2">
+            THE BEST VIEWS
+        </h1>
+        </div>
+</div>
+</div>
+   </section>
+   <section class="moon">
+    <video class="moonweb" src="/assets/start-ac986eb6.webm"  width="3840" height="2160"  onloadedmetadata="this.muted = true" playsinline autoplay muted loop style="opacity: 1;">
+    </video>
+<div class="moontext1" style="opacity: 1;">
+<p class="moonmain">
+    Be among the first to register for a space flight for a fantastic experience.  
+</p>
+</div>
+<div class="register"  style="opacity: 1;">
+    <button class="btro">Register for a spaceflight</button>
+   
+    <p class="moonmain3">
+        First flight: 01/14/24  
+    </p>
+    <p class="moonmain4">
+        $15,000,000 
+    </p>
+    <p class="moonmain5">
+        $10,000,000 
+    </p>
+</div>
+<div class="main-bottom" style="opacity: 1;">
+<div class="wrapper">
+    <div class="moontext2" style="opacity: 1;">
+        <h1 class="moonmain2">
+            THE FUTURE OF SPACE TRAVEL <br> HAS ARRIVED!
+        </h1>
+        </div>
+</div>
+</div>
+   </section>
+</main>
+</div>
+</body>
+</html>
